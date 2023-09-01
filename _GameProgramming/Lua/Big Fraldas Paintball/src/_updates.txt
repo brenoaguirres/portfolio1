@@ -1,0 +1,50 @@
+--[[
+    Big-Fralda's Paintball
+    Author: Breno Aguirres
+    brenoaguirres1998@gmail.com
+
+    This game was made after a suggestion from a friend in a bar conversation.
+    The challenge was to make a game based on his suggestion before 6 A.M of
+    the same day. 
+    [24/09/22]
+]]
+
+-- Day 0 Update -- 3:00 AM
+
+* Ambient setup
+* Background & start screen
+* Title Screen Buttons
+
+-- The Cutscene Update --
+
+* Transition scene between Start & Play screens where you see the main character
+being shot into the air.
+
+-- The Mouse Update --
+
+* Rendered cursor follows mouse cursor and can send a message when player clicks
+screen
+
+-- The Ammo Update --
+
+* Total times player can shoot, if ammo gets to 0 the game is over
+
+-- The Power Up Update --
+
+* If player shoots crate, more bullets are added to paintgun
+
+-- The Enemies Update --
+
+* Enemies walk on the ground in various patterns 
+
+-- The Steve-O Update --
+
+* If player hits the bonus enemy on the ground, additional points are scored.
+
+-- The Score Update --
+
+* When player hits characters, points are added to total score
+
+-- The Audio Update --
+
+* Added sound effects and background music being randomized every time

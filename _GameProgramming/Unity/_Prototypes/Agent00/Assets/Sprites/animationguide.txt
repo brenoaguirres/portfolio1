@@ -1,0 +1,7 @@
+walking front	-> 1-12   (12fps - 1x)
+walking back	-> 13-24  (12fps - 1x)
+walking right	-> 25-36  (12fps - 1x)
+walking left	-> 37-48  (12fps - 1x)
+idle breathing	-> 49-60  (6fps - 0.5x)
+idle stomping	-> 60-67  (14fps - 2x)
+idle smoking	-> 68-101 (12fps - 1x) - has to test

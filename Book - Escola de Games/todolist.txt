@@ -1,0 +1,5 @@
+fazer a estilização do conteudo, design da tipografia e cores
+fazer a estilização das paginas com margem, textura, cabeçalho e tipografia
+fazer o roteiro dos textos baseado numa história comum e no formato das paginas, para colocar paginas de diálogos entre os textos
+escrever exercicios com praticas.
+fazer o apendice no fim com exemplos

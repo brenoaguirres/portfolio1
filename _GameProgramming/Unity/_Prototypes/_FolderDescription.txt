@@ -1,0 +1,6 @@
+Author: Breno Freitas Aguirres
+_Prototypes Folder: Mostly unfinished prototypes where I've achieved
+some functionality that I was testing.
+---------------------------------
+AgentOO - Features code written by me that projects a 2D character to look
+3D in a 3D enviroment.

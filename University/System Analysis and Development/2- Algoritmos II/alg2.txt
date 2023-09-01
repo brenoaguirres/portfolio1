@@ -1,0 +1,174 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+
+// variables
+int number1 = 10;
+float number2 = 2.5;
+double number3 = 8989989898898.777878;
+char letter = 'D';
+
+// format specifiers
+// %d - %i    --> int
+// %f - %.2f  --> float - decimal steps
+// %lf        --> double 
+// %c         --> char
+// %s         --> string
+
+// output
+printf("String");
+printf("\n\n");
+int number = 2;
+printf("String %d - Concatenation and formatting.", number);
+
+// input
+int answer;
+printf("Type a number: \n");
+scanf("%d", &answer);
+printf("Your number is: %d", number);
+
+// main function
+int main() {      // -->> can it be a void function???
+ printf("Hello World!");   
+ printf("Testing function.");
+ return 0;
+}
+
+// if syntax
+if (x > 10)
+{
+   
+}
+
+// if-elseif-else syntax
+if (x > 10)
+{
+   
+}
+else if (x == 0)
+{
+
+}
+else
+{
+    
+}
+
+// switch syntax
+switch (x)
+{
+ case 1:
+      // instructions
+      break;
+ case 2:
+      // instructions
+      break;
+ default:
+         // instructions
+         break;
+}
+           
+
+
+// while syntax
+while (x > 10)
+{
+      
+}
+
+
+// do while syntax
+do {
+    
+} while (x > 10);
+
+// for syntax
+for (x = 20; x > 10; x--)
+{
+    // init; condition; step
+    // step can be x-- x++ x+=2 x*=2 for example
+}
+
+// Arithmetic Operations
+// 1 + 1 = 2 
+// 2 - 2 = 0
+// 2 * 3 = 6
+// 4 / 2 = 2
+// 4 % 2 = 0 -->> modulo operator
+
+// Increment Decrement Operators
+// x++ --> x+=1
+// x-- --> x-=1
+
+// Assignment Operators
+// x = 10
+// x+=1 -> x = x + 1
+// x-=1 -> x = x - 1
+// x*=2 -> x = x * 2
+// x/=2 -> x = x / 2
+// x%=2 -> x = x % 2
+
+// Relational Operators
+// == -> equals to
+// >  -> greater than
+// <  -> lesser than
+// != -> not equals to
+// >= -> greater than or equals to
+// <= -> lesser than or equals to
+
+// Logical Operations
+// and -> &&
+// or  -> ||
+// not -> !
+
+// Bitwise Operators
+// & -> bitwise and
+// | -> bitwise or
+// ^ -> bitwise xor
+// ~ -> bitwise complement
+// << -> shift left
+// >> -> shift right
+
+// Ternary Operator          ?:
+// Reference Operator        &
+// Dereference Operator      *
+// Member Selection Operator ->
+
+// Arrays (Vetores)
+//       * index - índice
+//       * int x[10];
+//       * 0 indexed -> 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+//       * access by:
+//       * int y = x[3];
+//       *
+//       * you can use loops like for to iterate over arrays
+//       
+int x[1000];
+
+for (i = 0; i < 1000; i++)
+{
+    x[i] = i + 100;
+    print("%d", x );
+}
+
+// Arrays are Unidimensional Homogeneous Structures.
+// Homogeneous means only one data type.
+
+system("cls");
+system("clear");
+Sleep(100);
+fflush(stdin); // clears keyboard buffer, returns 0 or EOF error.
+
+// Matrixes
+// Matrixes are multidimensional arrays
+// The inside will run every iteration before the external loop.
+int m[2][8]; // -> L,C 
+for (l = 0; l < 2; l++) {
+    for (c = 0; c < 8; c++) {
+        printf("\nInforme M[%d, %d] -->", l+1, c+1);
+        scanf("%i", &m[l][c]);
+    }
+}
+
+// These matrixes are n-dimensional
+// int nMatrix[2][3][4];

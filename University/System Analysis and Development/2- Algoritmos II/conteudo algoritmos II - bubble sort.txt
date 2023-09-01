@@ -1,0 +1,81 @@
+// // Online C compiler to run C program online
+// #include <stdio.h>
+// #include <stdlib.h>
+
+// int main() {
+    
+//     int n[3], i, lower, aux;
+    
+//     for (i=0; i < 3; i++) {
+//         printf("Please insert the %d number:\n", i+1);
+//         scanf("%d", &n[i]);
+        
+//         if (i == 0) {
+//             lower = n[0];
+//         }
+//         else if (lower > n[i]) {
+//             aux = lower;
+//             lower = n[i];
+//             n[i] = aux;
+//         }
+//     }
+    
+//     printf("Lower number: %d\n", lower);
+    
+//     printf("Press any key to continue...");
+//     getchar();
+    
+//     return 0;
+    
+// }
+
+
+// algoritmos de ordenação - quick sort, shell sort, bubble sort, heap sort
+#include <stdio.h>
+#include <stdlib.h>
+
+// BUBBLE SORT
+
+// ordenar um vetor em ordem crescente
+
+// 1) comparar elementos de 2 em 2
+// 2) comparar o numero com o numero da frente até chegar no final
+// 3) Você passa a bolha até o fim o número por vezes o numero de casas do vetor -1
+// 4) para garantir em um vetor de 9 casas, passe a bolha até o fim 8 vezes.
+
+int main() {
+    
+    int aux, contador, x[5], i;
+
+    for (i = 0; i < 5; i++) {
+        printf("Please inform the %d number:\n", i+1);
+        scanf("%d", &x[i]);
+    }
+    
+    for (contador=0; contador < 5; contador++) {
+        for (i = 0; i < 5; i++) {
+            if (x[i] < x[i+1])
+            {
+                aux = x[i];
+                x[i] = x[i+1];
+                x[i+1] = aux;
+            }
+        }
+    }
+    
+    for (i = 0; i < 5; i++) {
+        printf("%d\n", x[i]);
+    }
+    
+    printf("Press any key to continue...");
+    getchar();
+    
+    return 0;
+}
+
+// -> vai usar bubble sort na questao 6
+// -> para ordenar em ordem decrescente é só trocar o sinal do if
+// -> pode-se usar uma flag para testar se o bubbleSort ja finalizou e nao fazer rodar atoa
+
+
+// -> pesquisar quick sort

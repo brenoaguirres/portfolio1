@@ -1,0 +1,21 @@
+DWV - Viewer, porem como manipular?
+// serve como base para construir a nossa lib?
+https://github.com/ivmartel/dwv
+
+PYDICOM - CONVERT AND READ DICOM images
+https://stackoverflow.com/questions/48185544/read-and-open-dicom-images-using-python
+
+CUT IMG FROM BG
+https://data-flair.training/blogs/python-remove-image-background/
+
+HISTOGRAM GREYSCALE PYTHON - OPENCV
+https://towardsdev.com/how-to-plot-a-histogram-of-a-grayscale-image-in-2-ways-in-python-using-opencv-e17f1e3e537d
+
+STEP 4
+probably using numpy + scikit-learn??
+
+
+[ ] solução do python é integravel?
+[ ] ver videos
+[ ] marcar p ver o software
+[ ] cadastro no task manager

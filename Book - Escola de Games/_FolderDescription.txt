@@ -1,0 +1,7 @@
+Author: Breno Freitas Aguirres
+Book - Escola de Games Folder: This is a book I've wrote for Universidade
+Federal de Jataí's project called "School of Games", the idea was to
+teach children and teenagers to program by teaching how to code videogames.
+---------------------------------
+Livro do Professor - Contains the finished version of the text that should
+have entered the book.

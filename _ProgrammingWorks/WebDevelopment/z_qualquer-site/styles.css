@@ -1,0 +1,38 @@
+.barra-nav {
+    background-color: grey;
+    height: 20px;
+    position: fixed;
+}
+
+.conteiner-cima {
+    background-color: blue;
+    height: 200px;
+    width: 200px;
+    border-width: 20px;
+    border-style: solid;
+    padding: 20px;
+}
+
+.conteiner-meio{
+    background-color: red;
+    height: 200px;
+    width: 200px;
+    border-width: 10px;
+    border-style: solid;
+    margin-left: 280px;
+}
+
+.conteiner-baixo{
+    background-color: yellow;
+    height: 200px;
+    width: 200px;
+    border-width: 20px;
+    border-style: solid;
+    margin-left: 500px;
+}
+
+div {
+    background-color: green;
+    height: 2144px;
+    width: 100%;
+}

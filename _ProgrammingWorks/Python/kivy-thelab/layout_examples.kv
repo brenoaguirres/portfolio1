@@ -1,0 +1,116 @@
+<PageLayoutExample@PageLayout>:
+    MainWidget:
+    BoxLayoutExample:
+    AnchorLayoutExample:
+    GridLayoutExample:
+
+<ScrollViewExample@ScrollView>:
+    StackLayoutExample:
+        size_hint: 1, None
+        height: self.minimum_height
+
+<StackLayoutExample>:
+    # left-right top-bottom
+    orientation: "rl-bt"
+    padding: ("20dp", "40dp", "20dp", "40dp")
+    # vertical and horizontal spacing
+    spacing: "10dp", "20dp"
+
+<GridLayoutExample@GridLayout>:
+    cols: 3
+    rows: 2
+    Button:
+        text: "A"
+        size_hint: .3, .3
+    BoxLayoutExample:
+    Button:
+        text: "C"
+        size_hint: None, 1
+        width: "60dp"
+    Button:
+        text: "D"
+        size_hint: .3, .3
+    Button:
+        text: "E"
+    Button:
+        text: "F"
+        size_hint: None, 1
+        width: "60dp"
+
+<AnchorLayoutExample>:
+    AnchorLayout:
+        # right left center
+        anchor_x: "center"
+        # bottom top center
+        anchor_y: "top"
+        BoxLayout:
+            size_hint: .2, .1
+            Button:
+                text: "A"
+            Button:
+                text: "B"
+    AnchorLayout:
+        # right left center
+        anchor_x: "center"
+        # bottom top center
+        anchor_y: "bottom"
+        BoxLayout:
+            size_hint: .2, .1
+            Button:
+                text: "C"
+            Button:
+                text: "D"
+
+
+<EmbededLayout>:
+    orientation: "horizontal"
+    Label:
+        text: "Multiple Layouts:"
+        size: "150dp", "40dp"
+        size_hint: None, None
+        pos_hint: {"center_y": .5}
+    BoxLayout:
+        orientation: "vertical"
+        spacing: "5dp"
+        Button:
+            text: "Button A"
+            size_hint: .5, .20
+            pos_hint: {"center_x": .45, "center_y": .5}
+        Button:
+            text: "Button B"
+            size_hint: .5, .20
+            pos_hint: {"center_x": .45, "center_y": .5}
+        Button:
+            text: "Button A"
+            size_hint: .5, .20
+            pos_hint: {"center_x": .45, "center_y": .5}
+        Button:
+            text: "Button B"
+            size_hint: .5, .20
+            pos_hint: {"center_x": .45, "center_y": .5}
+    Button:
+        text: "Finger"
+        size: "40dp", "40dp"
+        size_hint: None, None
+        pos_hint: {"center_x": .5}
+
+
+<BoxLayoutExample>:
+    orientation: "vertical"
+    Label:
+        text: "Orientation display:"
+        size: "150dp", "40dp"
+        size_hint: None, None
+    Button:
+        text: "Button A"
+        size_hint: .5, 1
+        pos_hint: {"x": .25}
+    Button:
+        text: "Button B"
+        size_hint: .5, 2
+        pos_hint: {"right": .75}
+    Button:
+        text: "Finger"
+        size: "40dp", "40dp"
+        size_hint: None, None
+        pos_hint: {"center_x": .5}

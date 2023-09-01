@@ -1,0 +1,91 @@
+#:import layout_examples layout_examples
+
+WidgetsExample:
+
+# BELOW HERE --- THE LAB 4
+
+
+
+# BELOW HERE --- THE LAB 3
+
+
+
+# BELOW HERE --- THE LAB 2
+
+<ImagesExample@GridLayout>:
+    cols: 3
+    Image:
+        source: "resources/images/cake.jpg"
+    Image:
+        source: "resources/images/cake.jpg"
+        allow_stretch: True
+    Image:
+        source: "resources/images/cake.jpg"
+        allow_stretch: True
+        keep_ratio: False
+
+<WidgetsExample@GridLayout>:
+    cols: 3
+    ToggleButton:
+        text: "OFF"
+        on_state: root.on_toggle_button_state(self)
+        size_hint: None, 1
+        width: "100dp"
+    Button:
+        text: "Click to Count!"
+        on_press: root.on_button_click()
+        disabled: not root.count_enabled
+    Label:
+        color: 1, .5, 1, 1
+        font_name: "resources/fonts/Lcd.ttf"
+        font_size: "60dp"
+        text: root.my_text
+    Switch:
+        on_active: root.on_switch_active(self)
+        size_hint: None, 1
+        width: "100dp"
+    Slider:
+        id: my_slider
+        disabled: not root.slider_enabled
+        min: 0
+        max: 100
+        value: 50
+        on_value: root.on_slider_value(self)
+        orientation: "vertical"
+    BoxLayout:
+        orientation: "vertical"
+        Label:
+            color: 1, .5, 1, 1
+            font_name: "resources/fonts/Lcd.ttf"
+            font_size: "60dp"
+            text: str(int(my_slider.value))
+        ProgressBar:
+            size_hint: .6, 1
+            pos_hint: {"center_x": .5}
+            max: 100
+            value: my_slider.value
+    TextInput:
+        id: txt_name
+        text: "foo"
+        size_hint: None, 1
+        width: "100dp"
+        multiline: False
+        on_text_validate: root.on_text_validate(self)
+    Label:
+        text: "Your name is " + root.text_input_str + "."
+
+
+
+# BELOW HERE --- THE LAB 1 [Layouts]
+
+<MainWidget>:
+    Button:
+        text: "Hello"
+        size: "100dp", "80dp"
+        pos: "100dp", "200dp"
+        color: 0, .7, .5, 1
+    Label:
+        text: "Hello2"
+        size: "100dp", "80dp"
+        pos: "200dp", "300dp"
+        color: .8, 0, 0, 1

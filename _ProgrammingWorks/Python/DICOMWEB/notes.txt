@@ -1,0 +1,10 @@
+1 - Corrigir glitch da seleção quando os pontos estão invertidos (é selecionado o ponto mais embaixo
+        ou na frente primeiro.
+2 - Implementar seleção da imagem DICOM para crop.
+3 - Implementar seleção de arquivo com file manager.
+4 - Implementar sliders manuais para threshold.
+5 - Melhorar o crop com segurar e arrastar // pinch, - e opção de touch
+6 - Converter fundo preto para alfa de PNG.
+
+a - Contour detection
+b - Machine Learning

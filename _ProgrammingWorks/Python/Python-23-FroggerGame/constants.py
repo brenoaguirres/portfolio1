@@ -1,0 +1,7 @@
+# screen related constants
+SCRCOLOR_A = "#9bcc0f"
+SCRCOLOR_B = "#8bac0f"
+SCRCOLOR_C = "#306230"
+SCRCOLOR_D = "#0f380f"
+SCRSIZE_WIDTH = 600
+SCRSIZE_HEIGHT = 600
